@@ -17,3 +17,20 @@ The current project provides product browsing only. Ordering, payments, and deli
 The diagram below shows how the retail catalogue is hosted on Azure.
 
 ![Azure Retail Platform Architecture](docs/azure-retail-platform-architecture.drawio.png)
+
+## Azure Services and Design Decisions
+
+| Service or setting | Why it was chosen |
+|---|---|
+| Azure Storage static website | Hosts the product catalogue without needing a web server. |
+| Standard performance tier | A sensible starting point for a small website with modest traffic. |
+| Locally Redundant Storage (LRS) | Keeps multiple copies of data within one physical location at a relatively low cost. It does not provide regional disaster recovery. |
+| Terraform | Defines infrastructure as code so resources can be deployed consistently and changes can be reviewed. |
+| HTTPS and TLS 1.2 minimum | Helps protect data travelling between visitors and the website. |
+
+## Current Limitations
+
+- The website displays products only; it does not support orders or payments.
+- The static website endpoint is publicly accessible.
+- LRS does not protect against the loss of an entire Azure region.
+- Monitoring, automated deployment, and disaster recovery have not yet been implemented.
