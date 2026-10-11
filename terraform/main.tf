@@ -24,3 +24,8 @@ output "project_name" {
   description = "The project name configured in Terraform"
   value       = var.project_name
 }
+
+resource "azurerm_resource_group" "retail" {
+  name = "rg-retail-demo"
+  location = "UK South"
+}
