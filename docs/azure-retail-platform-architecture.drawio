@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2-7F1OYE3rWXl1tZawRs">
+    <mxGraphModel dx="1373" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="Website Visitor" vertex="1">
+          <mxGeometry height="30" width="110" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="275" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="HTTPS / TLS" vertex="1">
+          <mxGeometry height="30" width="80" x="295" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-4" edge="1" parent="1" source="1VYdUAfE5bFEx1AKz2sU-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1VYdUAfE5bFEx1AKz2sU-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="120" as="sourcePoint" />
+            <mxPoint x="330" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="300" x="187.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="Azure Storage -&amp;nbsp; Static Website" vertex="1">
+          <mxGeometry height="30" width="205" x="235" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-7" edge="1" parent="1" source="1VYdUAfE5bFEx1AKz2sU-2" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="335" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VYdUAfE5bFEx1AKz2sU-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0" value="Terraform Provision the Azure resources; GitHub stores your code and documentation" vertex="1">
+          <mxGeometry height="30" width="470" x="140" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
